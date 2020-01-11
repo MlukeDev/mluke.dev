@@ -1,0 +1,109 @@
+
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent; }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+    
+    background: linear-gradient(180deg, rgba(0,0,0,1) 33%, rgba(60,12,129,1) 69%, rgba(66,0,162,1) 100%);
+    background-color: rgba(60,12,129)
+}
+
+.logo
+{
+    margin-top: 25;
+}
+
+header {
+    
+    position: relative; top: -20px;
+    position: relative; margin-left: -20px;
+    position: relative; margin-right: -20px;
+    padding: 0px;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(60,12,129,1) 100%);
+    
+}
+
+#nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    background-color: #1b2032;
+    border-bottom: opx solid #ccc;
+    border-top: 0px solid #ccc;
+    border-radius: 10px;
+    
+}
+
+li a {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    color: #b1bce2;
+    font-family: futura
+}
+
+li {
+   display: inline-block;
+    text-align: center;
+    
+}
+
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #323b5d;
+}
+
+.box {
+    background-color: #202432;
+    margin-left: 200;
+    margin-right: 200;
+    margin-top: 50;
+    margin-bottom: 50;
+    padding-top: 60;
+    padding-left: 80;
+    padding-right: 80;
+    padding-bottom: 60;
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.4);
+}
+
+h1 {
+    color: white;
+    font-family: futura;
+    font-weight: 100;
+    font-size: 30
+}
+
+h2
+{
+    color: #7b85a7;
+    font-family: futura;
+    font-weight: 100;
+    font-size: 20
+}
+
+.circleprofile
+{
+    margin-top: 20;
+    margin-bottom: 20;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+}
