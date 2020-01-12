@@ -25,6 +25,72 @@ body {
     margin-top: 25;
 }
 
+.button {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  color: #7b85a7;
+    font-family: futura;
+    font-weight: 100;
+    font-size: 20
+  background-color: #202432; 
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 3px solid #262c40;
+
+}
+
+#title{
+    font-size: 40;
+    margin-bottom: 20
+}
+
+#message {
+    margin-top: 20px
+}
+
+#contactme {
+    margin-top: 50px;
+}
+
+.button:hover {
+  border: 3px solid #202432;
+  background-color: #202432;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2), -5px -5px 10px rgba(255,255,255,0.03);
+}
+
+.tile_div
+{
+    
+}
+
+.circlebutton
+{
+  
+  border-radius: 50%;
+  border: 3px solid #262c40;
+  color: white;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.circlebutton:hover
+{
+  border: 3px solid #202432;
+  background-color: #202432;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2), -5px -5px 10px rgba(255,255,255,0.03);
+}
 header {
     
     position: relative; top: -20px;
@@ -36,8 +102,8 @@ header {
 }
 
 #nav {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 30%;
+    margin-right: 30%;
     width: 40%;
     padding: 0;
     text-align: center;
@@ -50,6 +116,8 @@ header {
 }
 
 li a {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
     display: block;
     padding: 8px 15px;
     text-decoration: none;
@@ -65,16 +133,14 @@ li {
     
 }
 
-
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #323b5d;
 }
 
 .box {
     background-color: #202432;
-    margin-left: 200;
-    margin-right: 200;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 50;
     margin-bottom: 50;
     padding-top: 60;
@@ -100,7 +166,7 @@ h2
     font-size: 20
 }
 
-.circleprofile
+#profilepic
 {
     margin-top: 20;
     margin-bottom: 20;
