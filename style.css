@@ -8,6 +8,11 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
   font-size: 100%;
   background: transparent; }
 
+.active
+{
+    background-color: #161823
+}
+
 .center {
   display: block;
   margin-left: auto;
