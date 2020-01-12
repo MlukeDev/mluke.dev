@@ -20,6 +20,11 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
   margin-right: auto;
 }
 
+.projectboxes
+{
+    margin-left: 10px;
+}
+
 body {
     
     background: linear-gradient(180deg, rgba(0,0,0,1) 33%, rgba(60,12,129,1) 69%, rgba(66,0,162,1) 100%);
@@ -31,13 +36,52 @@ body {
     margin-top: 25;
 }
 
+.project
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#project{
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    
+}
+
+.projectlang {
+    color: #7b85a7;
+    font-family: futura;
+    font-weight: 200;
+    font-size: 15;
+    padding-top: 3;
+    text-align: center
+}
+
+.projecttitle
+{
+    color: white;
+    font-family: futura;
+    font-weight: 500;
+    font-size: 20;
+    padding-top: 5;
+    text-align: center
+}
+
 .button {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   color: #7b85a7;
-    font-family: futura;
-    font-weight: 100;
-    font-size: 20
+  font-family: futura;
+  font-weight: 100;
+  font-size: 20
   background-color: #202432; 
   padding: 5px 32px;
   text-align: center;
@@ -68,10 +112,6 @@ body {
   box-shadow: 5px 5px 10px rgba(0,0,0,0.2), -5px -5px 10px rgba(255,255,255,0.03);
 }
 
-.tile_div
-{
-    
-}
 
 .circlebutton
 {
