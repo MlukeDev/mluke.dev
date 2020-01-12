@@ -10,7 +10,8 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
 
 .active
 {
-    background-color: #161823
+    background-color: #202432;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2), -5px -5px 10px rgba(255,255,255,0.03);
 }
 
 .center {
@@ -128,8 +129,10 @@ li a {
     text-decoration: none;
     font-weight: 700;
     text-align: center;
-    color: #b1bce2;
-    font-family: futura
+    color: #7b85a7;
+    font-family: futura;
+    margin-left: 10;
+    margin-right: 10;
 }
 
 li {
@@ -139,7 +142,8 @@ li {
 }
 
 li a:hover {
-  background-color: #323b5d;
+    background-color: #202432;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2), -5px -5px 10px rgba(255,255,255,0.03);
 }
 
 .box {
