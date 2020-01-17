@@ -96,7 +96,7 @@ body {
   color: #7b85a7;
   font-family: futura;
   font-weight: 100;
-  font-size: 20
+  font-size: 20;
   background-color: #202432; 
   padding: 5px 32px;
   text-align: center;
@@ -221,7 +221,13 @@ li a:hover {
   box-shadow: 5px 5px 10px rgba(0,0,0,0.2), -5px -5px 10px rgba(255,255,255,0.03);
 }
 
-
+.contactLabel
+{
+    color: #7b85a7;
+    font-family: futura;
+    font-weight: 100;
+    font-size: 20
+}
 
 .box {
     background-color: #202432;
@@ -268,4 +274,51 @@ h2
     margin-bottom: 20;
     border-radius: 50%;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 3px solid #262c40;
+  background-color: #262c40; 
+  font-family: futura;
+  font-weight: 100;
+  font-size: 15;
+  border-radius: 10px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  color: #7b85a7;
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  color: #7b85a7;
+  font-family: futura;
+  font-weight: 100;
+  font-size: 20;
+  background-color: #202432; 
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 3px solid #262c40;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  border: 3px solid #202432;
+  background-color: #202432;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2), -5px -5px 10px rgba(255,255,255,0.03);
+}
+
+/* Add a background color and some padding around the form */
+#container {
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2), -5px -5px 10px rgba(255,255,255,0.03);
 }
