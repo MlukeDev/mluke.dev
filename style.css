@@ -71,13 +71,15 @@ body {
     box-shadow: 0px 10px 15px rgba(0,0,0,0.2);
 }
 
+
+
 .projectlang {
     color: #7b85a7;
     font-family: futura;
     font-weight: 200;
     font-size: 15;
     padding-top: 3;
-    text-align: center
+    text-align: center;
 }
 
 .projecttitle
@@ -87,7 +89,72 @@ body {
     font-weight: 500;
     font-size: 20;
     padding-top: 5;
-    text-align: center
+    text-align: center;
+}
+
+.contactTitle {
+    color: white;
+    font-family: futura;
+    font-weight: 500;
+    font-size: 35;
+    padding-top: 5;
+    text-align: center;
+}
+
+.contactHandle {
+    color: #7b85a7;
+    font-family: futura;
+    font-weight: 200;
+    font-size: 20;
+    padding-top: 3;
+    text-align: center;
+}
+
+.contactContent{
+    display: inline-block;
+}
+
+.contactDiv{
+
+}
+
+#contactBox{
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2), -5px -5px 10px rgba(255,255,255,0.03);
+}
+
+@media only screen and (max-width: 1200px) {
+  #contactBox {
+   width: 60%
+    }
+}
+
+@media only screen and (max-width: 500px) {
+  #contactBox {
+   width: 70%
+    }
+}
+
+#contactText {
+    margin-top: -80;
+    margin-left: 5%;
+    text-align: center;
+}
+
+#icon {
+    
+}
+
+.contactText {
+    margin-right: 100px;
 }
 
 .button {
