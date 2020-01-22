@@ -119,6 +119,8 @@ body {
 }
 
 #contactBox{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
     border-radius: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -129,6 +131,10 @@ body {
     margin: 0 auto;
     margin-top: 40px;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.2), -5px -5px 10px rgba(255,255,255,0.03);
+}
+
+#contactBox:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2), -5px -5px 20px rgba(255,255,255,0.03);
 }
 
 @media only screen and (max-width: 1200px) {
